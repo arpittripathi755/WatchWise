@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WatchWise</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>WatchWise 🎬</h1>
+
+  <!-- 🔍 Search -->
+  <input type="text" id="search" placeholder="Search movies..." />
+
+  <!-- 🎭 Multi Genre Filter -->
+  <p>Select Genres (Ctrl/Cmd + Click for multiple)</p>
+  <select id="genreFilter" multiple>
+    <option value="28">Action</option>
+    <option value="35">Comedy</option>
+    <option value="18">Drama</option>
+    <option value="27">Horror</option>
+    <option value="10749">Romance</option>
+  </select>
+
+  <!-- 🎬 Movies -->
+  <div id="movies"></div>
+
+  <script src="./config.js"></script>
+  <script src="./script.js" defer></script>
+</body>
+</html>

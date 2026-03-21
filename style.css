@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: aqua;
+}
+
+#movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.movie img {
+  width: 100%;
+}
